@@ -5,18 +5,18 @@
   align-items: center;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.header h1, h3{
   padding: 1rem 2rem;
   flex-wrap: wrap;
   color: #919191;
   cursor: default;
-  font-size: 187.5%;
   line-height: 125%;
   text-transform: none;
   font-family: "Flexo-Regular",arial,sans-serif;
+}
+
+h3 {
+  padding: 0;
 }
 
 .pokemon-grid {

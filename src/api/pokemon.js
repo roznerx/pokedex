@@ -1,10 +1,10 @@
 import axios from 'axios';
 
-export async function getPokemon(offset = 0) {
+export async function getPokemon(limit, offset) {
   try {
     const res = await axios.get('https://pokeapi.co/api/v2/pokemon', {
       params: {
-        limit: 5,
+        limit: limit,
         offset: offset,
       }
     })
