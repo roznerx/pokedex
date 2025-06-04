@@ -1,25 +1,22 @@
-# Pokemons list with "Load more" button
+# "Build a paginated Pokemons list with a 'Load more' button" challenge by reactpractice.dev 
 
-Build a component that displays a list of Pokemons with a "Load more" button. You can use the [free Poke API](https://pokeapi.co/) to retrieve the data.
+Made by **roznerx** (ignaciorosner@gmail.com)
 
-- Initially, the component should only show the first 5 items
-- Below the list, there should be a label saying how many items are being displayed from the total - e.g. "Displaying 20 of 567 results"
-- Clicking "Load more" will load another 5 items into the list
-- When the are no more results, the button should no longer be displayed
+- Fifteenth day of the challenge, now doing something we all love: a Pokédex!
+- This was very fun and exciting with all the Pokémons, and using the [PokéAPI](https://pokeapi.co/) was really nice!
+- The solution was overall quite straightforward, so I decided to throw a little extra and make an UI for the project, taking some styles from the [offical Pokédex site](https://www.pokemon.com/us/pokedex)
+- While finishing it, I realized I should revisit all these challenges and create a branch in order to migrate the solution to **TypeScript**, which is what I use on a daily basis
 
-The styling doesn't matter for this component - just make sure to display the pokemons as `<li>` elements in a list (`ul`) and show the name for each.
+*Link to the challenge:* https://reactpractice.dev/start-here/ 
 
-Make sure to get the unit tests to pass. The tests mock the real API using `msw`. If you haven't used it before, [this is a nice walkthrough](https://kentcdodds.com/blog/stop-mocking-fetch).
+*Link to the exercise:* https://reactpractice.dev/exercise/create-a-timer-that-can-be-started-and-stopped/?utm_source=calendar.reactpractice.dev&utm_medium=social&utm_campaign=calendar-v1
 
-## Getting started
+**NOTE:** man, I'm getting really old! Just how many Pokémon exist right now? I stopped playing the games back with **Emerald* and now they have like 1302?!
 
-1. Run `npm install`
-2. Open the test file: `src/__tests__/pokemon-list.test.jsx`
-3. Run the tests `npm run test`
-4. Fix them!
+## Screenshots:
 
-Tips:
-
-- replace `test("bla")` with `test.only("bla")` to run only that test
-- move the console section with the test results to the right side of the code editor, so it's side by side with the code
-- consider installing the ["Jest" VSCode extension](https://github.com/jest-community/vscode-jest) to have a better experience running the tests
+![imagen](https://github.com/user-attachments/assets/3069b0de-35a1-4c14-b012-48a190f5d8e2)
+![imagen](https://github.com/user-attachments/assets/809e8425-c8aa-411d-a5cc-755505dd553a)
+![imagen](https://github.com/user-attachments/assets/73ca712d-6597-484f-a64a-aba27c347c85)
+![imagen](https://github.com/user-attachments/assets/8938a463-3186-406f-9a2d-ba61265c2f26)
+![imagen](https://github.com/user-attachments/assets/b605479e-d2a0-4775-a638-408d071561a4)
